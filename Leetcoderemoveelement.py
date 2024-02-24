@@ -8,7 +8,7 @@ class Solution(object):
         return k    
     def solution_count(self, nums, val):
         k = nums.count(val)
-        for i in range(k)
+        for i in range(k):
             nums.remove(val)
         return len(nums)
         
